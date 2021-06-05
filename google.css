@@ -1,4 +1,4 @@
-body,html{
+body{
     margin:0;
     padding:0;
     background-color:white;
@@ -24,54 +24,48 @@ body,html{
     border-radius: 60%;
 }
 
+    .search2:hover{
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+        }
+  .search2:focus-within{
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+    outline:none;
+  }
 
-.search{
-    display: flex;
-    box-sizing:content-box;
-    float:none;
-    color:rgb(34,34,34);
-    font-family: Arial,sans-serif;
-    font-size: 14px;
-    margin: auto;
-    
-    position: relative;
-    width: 90%;
-    height: 139px;
-    
-    
-
+.search2{
+    width: 580px;
+  margin:0 auto;
+  
+  border-radius:30px;
+  border:1px solid #dcdcdc;
+  height: 48px;
+  display: block;
+  
 }
+
 
 .searchBar{
-    align-items: center;
-    width: 527.4px;
-    height:34px;
-    display: flex;
-    box-sizing: content-box;
-    position: static;
-    z-index: auto;
-    flex-basis:100%;
-    float: none;
+    margin-right: auto;
+    margin-left: auto;
+    width: 500px;
+    height:45px;
+    font-size: 16px;
+    
+    outline: none;
+    
+    border: none;
     
     
     
 }
 
-.boxc
-.logo{
-    color:rgb(34,34,34);
-    font-family: arial,sans-serif;
-    font-size: 14px;
-    max-height: 100%;
-    max-width: 100%;
-    object-fit: contain;
-    object-position: center ;
-    width: auto;
-}
+
 .header1{
     width: 100%;
-    height: 48px;
+    height: 60px;
     background-color: white;
+    box-sizing: border-box;
+   
 }
 h1{
     position:absolute;
