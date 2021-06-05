@@ -32,15 +32,31 @@ body,html{
     color:rgb(34,34,34);
     font-family: Arial,sans-serif;
     font-size: 14px;
-margin: auto;
-
-position: relative;
-width: 90%;
-height: 139px;
-padding :20px;
-border-radius: 50%;
+    margin: auto;
+    
+    position: relative;
+    width: 90%;
+    height: 139px;
+    
+    
 
 }
+
+.searchBar{
+    align-items: center;
+    width: 527.4px;
+    height:34px;
+    display: flex;
+    box-sizing: content-box;
+    position: static;
+    z-index: auto;
+    flex-basis:100%;
+    float: none;
+    
+    
+    
+}
+
 .boxc
 .logo{
     color:rgb(34,34,34);
@@ -49,7 +65,7 @@ border-radius: 50%;
     max-height: 100%;
     max-width: 100%;
     object-fit: contain;
-    object-position: center bottom;
+    object-position: center ;
     width: auto;
 }
 .header1{
@@ -70,28 +86,38 @@ h1{
     float:right;
     padding-top:0px;
     padding-left: 32px;
-    height: 48px;
-    margin:0px
+    height: 60px;
+    padding-right: 4px;
+    margin:0px;
+    position: relative;
+    z-index: 986;
+    
+}
+
+.navitems{
+    display: inline-block;
+    margin:10px;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    font-family: Arial,  sans-serif;
+    font-weight: 400;
+    line-height: 28px;
     
 }
 
 
 
-li{
-    display: inline-block;
-    
-
-    }
 
  a{
-     text-align: center;
+     
      color:black;
      text-decoration: none;
-     font-family:'Open Sans',sans-serif ;
+     font-family:'Roboto',sans-serif ;
     font-size:13px;    
     }   
 
 a:hover{
     color:blue;
-    transparent:0.5s;
+    transition:0.5s;
 }
