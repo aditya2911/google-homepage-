@@ -1,4 +1,4 @@
-body{
+body,html{
     margin:0;
     padding:0;
     background-color:white;
@@ -13,6 +13,7 @@ body{
     min-height: 92px;
     box-sizing: border-box;
     flex-shrink: 0;
+    margin-top: 20px;
     font-family: arial,sans-serif;
     font-size: 14px;
     height: calc(100%-560px);
@@ -35,18 +36,23 @@ body{
 .search2{
     width: 580px;
   margin:0 auto;
-  
+  margin-top: 20px;
   border-radius:30px;
   border:1px solid #dcdcdc;
   height: 48px;
   display: block;
   
 }
-
+.button{
+    display: block;
+    margin :0 auto;
+    width: 584px;
+    height: 88px; 
+}
 
 .searchBar{
     margin-right: auto;
-    margin-left: auto;
+    margin-left: 30px;
     width: 500px;
     height:45px;
     font-size: 16px;
@@ -62,9 +68,11 @@ body{
 
 .header1{
     width: 100%;
-    height: 60px;
+    height: 48px;
+    margin-bottom: 12px;
     background-color: white;
     box-sizing: border-box;
+    position: static;
    
 }
 h1{
@@ -115,3 +123,37 @@ a:hover{
     color:blue;
     transition:0.5s;
 }
+
+.buttonStyl{
+    
+    
+    
+    margin :11px 4px;
+    text-align: center;
+    font-size: 14px;
+    height: 36px;
+    font-family: Arial, sans-serif;
+    line-height: 27px;
+    padding: 0px 16px;
+    min-width: 54px;
+    cursor: pointer;
+    border:1px solid #f8f9fa;
+    color: #3c4043;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+
+}
+.button1{background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;}
